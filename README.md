@@ -8,9 +8,11 @@ The things that we want our Smart Cab to take care:
   <li>Save passenger’s time by taking minimum time possible to drop off.</li>
   <li>Beware of walls </li></ul>
 
-<img src="taxi.png"/>
+<img src="taxi.png"/> 
 
 We can simulate above environment using <strong>Gym</strong>. The solid rectangle represents the taxi, which is yellow without a passenger and green with a passenger. The pipe ("|") represents a wall which cannot be crossed. R, G, Y, B are the possible pickup and destination locations. The <strong>Blue</strong> letter represents the current passenger pick-up location. The <strong>Purple</strong> letter is the current destination.
+
+<img src="simulation.gif/>
 
 The <strong>State Space</strong> is the set of all possible situations our taxi could inhabit. For this environment we have <strong>5*5</strong> grid which means <strong>25</strong> possible locations. These 25 locations are one part of our state space
 
